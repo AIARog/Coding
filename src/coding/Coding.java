@@ -62,7 +62,7 @@ public class Coding {
         
         //Arrays
         
-        int [] numbers = {1,4,3,5,6};   //int [] numbers = new int[5];
+       /* int [] numbers = {1,4,3,5,6};   //int [] numbers = new int[5];
                                         //numbers[0] = 1;
                                         //numbers[1] = 2; ...
         Arrays.sort(numbers);           // sortiert numbers‚‚‚
@@ -94,6 +94,36 @@ public class Coding {
         System.out.println("z: " + z);
         System.out.println(result);
         System.out.println("geteilt 10 / 3= " + devision);
+        
+        // casting
+        
+        short q = 1;
+        double  w = q + 2;  // das nennen wir imlement casting wir addieren ein int und short
+                            // byte > short > int > long 
+                            // double macht aus einen int eine ouble ... .0
+        double e = 1.1;
+        int t = (int)e + 2; // duble zu int
+        String r = "4";     // bed. muss ne Zahl sein
+        int u = Integer.parseInt(r) + 2; // macht nen String zum Integer
+        System.out.println(w);
+        System.out.println(t);
+        System.out.println("String in Integer:\t " + u);*/
+        
+       //Math
+       
+       int resuult = Math.round(1.1F);
+       int reult = (int)Math.ceil(1.1F);
+       int result = (int)Math.floor(1.1F);
+       int resulte = Math.max(1, 3); // Math.min
+       double resultee = Math.random();
+       int onetoonehundret = (int)(Math.random()*100);            // int onetoonehundret = (int)Math.round(Math.random() * 100);
+        System.out.println("resuult " + resuult);
+        System.out.println("reult " + reult);
+        System.out.println("result " + result);
+        System.out.println("resulte " + resulte);
+        System.out.println("resultee " + resultee);
+        System.out.println("one to onehundret " + onetoonehundret);
+       
     }
     
 }
